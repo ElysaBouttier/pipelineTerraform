@@ -29,6 +29,6 @@ resource "aws_instance" "instance_terraform_bouttier" {
   key_name      = "tp_dev_ynov"
 
   tags = {
-    Name = var.instance_name
+    Name = var.instance_tag
   }
 }
